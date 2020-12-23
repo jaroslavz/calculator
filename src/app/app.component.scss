@@ -1,0 +1,64 @@
+.main-screen {
+    height: 25vh;
+    font-size: 4rem;
+    text-align: right;
+    overflow: hidden;
+    width: calc(100% - 1px);
+    margin-left: -1px;
+    border: 1px solid black;
+}
+
+.additional-screen {
+    border-bottom: 1px solid black;
+    height: 50%;
+    font-size: 2rem;
+    overflow: auto;
+}
+
+.keys {
+    margin: 0;
+    height: 20%;
+    background: #FFFFFF;
+    color: #000000;
+    padding: 5%;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.9;
+
+    &:hover {
+        opacity: 1;
+        text-decoration: none;
+    }
+}
+
+.calc-digits {
+width: 100%;
+
+td {
+    border: 1px solid #000000;
+    padding: 10px;
+    position: relative;
+    left: -1px;
+    }
+}
+
+.clear-key {
+    color: #FFFFFF;
+    background-color: #FF0000; 
+}
+
+.equal-key {
+    color: #FFFFFF;
+    background-color: #27AE60; 
+}
+
+.digit-key {
+    color: #000000;
+    background-color: #7FB3D5 ; 
+}
+
+.operation-key {
+    color: white;
+    background-color: #FFBF00; 
+}
